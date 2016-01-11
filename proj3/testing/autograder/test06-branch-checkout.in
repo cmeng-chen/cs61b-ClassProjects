@@ -1,0 +1,37 @@
+# Check the creation of branch and checkout
+> init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "Wug commit 1"
+<<<
+> branch splitpoint
+<<<
+> checkout splitpoint
+<<<
+> status
+=== Branches ===
+master
+*splitpoint
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+<<<
++ notwug.txt notwug.txt
+> add notwug.txt
+<<<
++ wug.txt notwug.txt
+> add wug.txt
+<<<
+> commit "Wug commit 2 on splitpoint"
+<<<
+> checkout master
+<<<
+* notwug.txt
+= wig.txt wig.txt

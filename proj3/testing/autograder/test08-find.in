@@ -1,0 +1,22 @@
+# Check find
+> init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "Wug added"
+<<<
+> branch b
+<<<
+> checkout b
+<<<
++ notwug.txt notwug.txt
+> add notwug.txt
+<<<
+> commit "Wug added"
+<<<
+D ID "[a-f0-9]+"
+> find "Wug added"
+${ID}
+${ID}
+<<<*

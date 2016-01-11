@@ -1,0 +1,3 @@
+<<<<<<< HEAD
+file2 right now in switch=======
+file2 right now in switch>>>>>>>

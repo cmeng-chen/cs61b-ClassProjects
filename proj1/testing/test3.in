@@ -1,0 +1,5 @@
+load Test3;
+select one, five from Test3 where two = '2';
+create table Test4 as select one, three from Test3 where five = '10';
+print Test4;
+quit;

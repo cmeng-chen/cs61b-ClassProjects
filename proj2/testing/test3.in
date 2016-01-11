@@ -1,0 +1,10 @@
+# Fill this in.
+java -ea loa.Main 
+None
+===#1===
+auto Black
+auto White
+seed 12347
+start
+%bw
+%e

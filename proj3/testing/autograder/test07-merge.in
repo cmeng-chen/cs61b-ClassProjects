@@ -1,0 +1,31 @@
+# Check the error in merge and merge conflict
+> init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "Wug commit 1 on master"
+<<<
+> branch switch
+<<<
+> checkout switch
+<<<
++ wug.txt notwug.txt
+> add wug.txt
+<<<
+> commit "Wug commit 1 on switch"
+<<<
+> merge master
+Given branch is an ancestor of the current branch.
+<<<
+> checkout master
+<<<
++ wug.txt wugrevised.txt
+> add wug.txt
+<<<
+> commit "Wug commit 2 on master"
+<<<
+> merge switch
+Encountered a merge conflict.
+<<<
+= wug.txt conflicted.txt
