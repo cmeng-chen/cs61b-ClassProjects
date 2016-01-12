@@ -1,13 +1,11 @@
-This directory contains a skeleton for CS61B Project 2.
+cs61b Project2 - Line of Action
 
-Although some of what's in here might seem mysterious to you, try to 
-understand what it's all for.  Don't be afraid to ask us about it.
-The skeleton files are YOURS TO CHANGE AS YOU DESIRE OR THROW AWAY
-ENTIRELY!!!
+Author: Paul Hilfinger & Chen Meng
+
+Description: Lines of Action is a board game invented by Claude Soucie. It is played on a checkerboard with ordinary checkers pieces. The two players take turns, each moving a piece, and possibly
+capturing an opposing piece. The goal of the game is to get all of one’s pieces into one group of pieces that are adjacent horizontally, vertically, or diagonally.
 
 CONTENTS:
-
-ReadMe			This file.
 	
 Makefile		A makefile (for gmake) that will compile your
 			files and run tests.  You must turn in a Makefile,
